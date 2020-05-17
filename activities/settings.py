@@ -145,3 +145,4 @@ STATICFILES_DIRS = (
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 AUTH_USER_MODEL = 'activityapp.Member'
+STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
