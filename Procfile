@@ -1,1 +1,1 @@
-web: gunicorn activityapp:app
+web: gunicorn activities.wsgi
