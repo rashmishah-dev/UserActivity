@@ -5,12 +5,6 @@ In this Project, I have created an app, activityapp which has this functionality
 2. Created an api to show the activity detail corresponding to user details.
 
 
-## Deploy to Heroku
-
-You can deploy this app yourself to Heroku to play with.
-
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
-
 ## Building
 
 It is best to use the python `virtualenv` tool to build locally:
@@ -27,8 +21,8 @@ $ DEVELOPMENT=1 python manage.py runserver
 Run the following commands to deploy the app to Heroku:
 
 ```sh
-$ git clone https://github.com/memcachier/examples-django.git
-$ cd examples-django
+$ git clone https://github.com/rashmishah-dev/UserActivity.git
+$ cd UserActivity
 $ heroku create
 $ git push heroku master:master
 $ heroku open
