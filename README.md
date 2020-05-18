@@ -10,9 +10,10 @@ In this Project, I have created an app, activityapp which has this functionality
 It is best to use the python `virtualenv` tool to build locally:
 
 ```sh
-$ virtualenv-2.7 env
+$ virtualenv env
 $ source env/bin/activate
 $ pip install -r requirements.txt
+$ python manage.py migrations
 $ DEVELOPMENT=1 python manage.py runserver
 ```
 
